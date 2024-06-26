@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+ <!-- Add jQuery from a CDN -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<title>Zee 5</title>
+    
+</head>
+<style>
+
+</style>
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="media/ZEE5_logo.svg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TV Shows</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Primium</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Web Series</a>
+                  </li>
+                  <li class="nav-item hoverdro dropdown">
+                    <a class="nav-link drobtn dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-grid-3x3-gap-fill"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Rent</a></li>
+                      <li><a class="dropdown-item" href="#">Live Tv</a></li>
+                      <li><a class="dropdown-item" href="#">Music</a></li>
+                      <li><a class="dropdown-item" href="#">Eduauraa</a></li>
+                      <li><a class="dropdown-item" href="#">Sports</a></li>
+                      <li><a class="dropdown-item" href="#">Kids</a></li>
+                      <li><a class="dropdown-item" href="#">Songs</a></li>
+                      <li><a class="dropdown-item" href="#">Video</a></li>
+                    </ul>
+                  </li>      
+                </ul>
+    
+                <form class="d-flex align-items-center gap-3 ms-auto">
+                    <div class="search-container">
+                        <i class="fas fa-search text-light iconsearch"></i>
+                        <input class="form-control search me-2 inputsearch" type="search" placeholder="Search for Movies, Shows, Channels etc." aria-label="Search">
+                    </div>
+                    <a href="#" class="text-light fs-4"><i class="bi bi-translate"></i></a>
+                    <a href="#" class="btn btn-outline-light login">LOGIN</a>
+                    <a href="#" class="btn buy-plan text-light w-25"><i class="fa-solid fa-crown"></i> BUY PLAN</a>
+                    <button class="btn fs-2 text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i></button>
+                </form>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <hr class="bg-secondry border-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore 
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>   
+                          <hr class="bg-secondry border-3">          
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plans 
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>  
+                          <hr class="bg-secondry border-3">           
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Settings
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>        
+                          <hr class="bg-secondry border-3">     
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>     
+                          <hr class="bg-secondry border-3">
+                          <p class="text-secondry text-center">Version 4.6.6</p>        
+                      </ul>
+                </div>
+        </div>
+    </section>
+
+    <section class="splide mt-3" aria-labelledby="carousel-heading">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><img src="media/hero-img-1.webp" alt=""></li>
+                  <li class="splide__slide"><img src="media/hero-img-2.webp" alt=""></li>
+                  <li class="splide__slide"><img src="media/hero-img-4.webp" alt=""></li>
+                  <li class="splide__slide"><img src="media/hero-img-3.webp" alt=""></li>
+              </ul>
+        </div>
+      </section>
+
+    <div class="container extra my-5">
+        <div class="circle">
+            <i class="bi bi-percent icon"></i>
+            <img src="media/discount.png" alt="Discount Image" class="image">
+        </div>
+        <div class="get-extra rounded-4">
+            <div class="">
+                <h3 class="text-light">Get extra 10% OFF</h3>
+                <p class="text-light">on Credit Card.</p>
+            </div>
+            <div>
+                <button type="button" class="btn buy-plan-2 py-2 px-3 text-light">BUY PLAN</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="Trending-sec">
+        <div class="container">
+        <div class="Trending-Near-You mb-4">
+            <h4 class="text-light">Trending Near You</h4>
+        </div>
+        <div id="AllCards" class="row"></div>
+        <!-- <div class="row">
+                <div class="col-lg-2 mb-4">
+                    <div class="card">
+                        <img src="media/image1.webp" alt="Card Image" class="card-image">
+                        <div class="card-title">
+                            <h6>Swatantrya Veer Savarkar</h6>
+                            <div class="d-flex">
+                                <p>2h 50m</p>
+                                <p>• Biography</p>
+                                <p>• Drama</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div> -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="download d-flex gap-3 align-items-center">
+                        <h6>Download Apps</h6>
+                        <img src="media/app-store.png" alt="image">
+                        <img src="media/google-play.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icon d-flex gap-3 align-items-center float-end">
+                        <h6>Connect with us</h6>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="channels d-flex gap-4 mt-5">
+                <p class="border-1 border-end">Channels</p>
+                <p class="border-1 border-end">About Us</p>
+                <p class="border-1 border-end">Helo Center</p>
+                <p class="border-1 border-end">Privacy Policy</p>
+                <p class="">Terms of Use</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="popular-tv-show mt-5">
+                        <h6 class="text-light">Popular TV Shows</h6>
+                        <p>Manannarat</p>
+                        <p>kanan no lim</p>
+                        <p>Jhansi ki Rani</p>
+                        <p>Kumkum bhagva</p>
+                        <p>kundaliBnadva</p>
+                        <p>bhagva Laksmi</p>
+                        <p>Meet</p>
+                        <p>Annapoorna</p>
+                        <p>indira</p>
+                        <p>Korean Drama</p>
+                        <p>Pakistani Cariale</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="premium-Movies mt-5">
+                        <h6 class="text-light">premium Movies</h6>
+                        <p>Bastar</p>
+                        <p>Main Atal Hoon</p>
+                        <p>The Kerala Story</p>
+                        <p>Silence 2</p>
+                        <p>Sam bahadur</p>
+                        <p>Tejas</p>
+                        <p>kadak Singh</p>
+                        <p>Gadar 2</p>
+                        <p>Hanu-man</p>
+                        <p>kici ka Rhai Kisi Ki laan</p>
+                        <p>Randas</p>
+                        <p>RRR</p>
+                        <p>Uri: The Surgical Strike</p>
+                        <p>The Kashmir Files</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="LIVE-Channels mt-5">
+                        <h6 class="text-light">Popular LIVE TV Channels</h6>
+                        <p>Zee TV HD</p>
+                        <p>&TV HD</p>
+                        <p>Zee Marathi HD</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="web-series mt-5">
+                        <h6 class="text-light">Popular Web Series</h6>
+                        <p>The kroken Newe</p>
+                        <p>Manannarat</p>
+                        <p>Pitchers</p>
+                        <p>kanan no lim</p>
+                        <p>Duranga2</p>
+                        <p>Meet</p>
+                        <p>Annapoorna</p>
+                        <p>indira</p>
+                        <p>Korean Drama</p>
+                        <p>Cariale</p>
+                        <p>Pakistani</p>
+                        <p>Gaalivana</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="Celebrities mt-5">
+                        <h6 class="text-light">Bollywood Too Celebrities</h6>
+                        <p>ahhichoy Rachchan</p>
+                        <p>Ameesha Patel</p>
+                        <p>Main Atal Hoon</p>
+                        <p>The Kerala </p>
+                        <p>Silence 2</p>
+                        <p>Sam bahadur</p>
+                        <p>kadak Singh</p>
+                        <p>Gadar 2</p>
+                        <p>Hanu-man</p>
+                        <p>Randas</p>
+                        <p>The Kashmir</p>
+                        <p>Kangana Ranaut</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="Games mt-5">
+                        <h6 class="text-light">Games</h6>
+                        <p>Play</p>
+                        <p>Stories</p>
+                        <p>ILT20 2024</p>
+                        <p>ILT20 Schedule</p>
+                        <p>Aou Dnaol Knignt Riders</p>
+                        <p>Desert Vipers</p>
+                        <p>Dubai Capitals</p>
+                        <p>Gulf Giants</p>
+                        <p>Mi Fmirates</p>
+                        <p>Shariah Warriore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reserved mt-5">
+                <p>Best viewed on Goodle Chrome 80+. Microsoft Fdae 81+. Mozilla Firefox 75+. Safari 5 1 5+ 
+                <br>Coovright © 2024 Zee Entertainment Enterorises Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      <script>
+        var splide = new Splide( '.splide', {
+            type   : 'loop',
+            padding: '7rem',
+            autoplay: 'true',
+            } );
+            splide.mount();
+      </script>
+</body>
+</html>
